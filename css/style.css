@@ -1,3 +1,9 @@
+body {
+    background-color: #082645;
+    color: white;
+    font-family: 'Inter', -apple-system, sans-serif;
+}
+
 .nav-link{
     font-size: 20px;
     display: inline-block;
@@ -26,6 +32,10 @@ nav ul{
     justify-content: center;
 }
 
+.main-text{
+    margin-right: 35px;
+}
+
 .profile-photo{
     width: 250px;
     height: 250px;
@@ -52,4 +62,7 @@ nav ul{
 .cta-button:hover{
     background-color: #656262 ;
     color: #ffffff;
+    /* background-color: #ffffff ;
+    color: #1a1a1a;
+  */
 }
