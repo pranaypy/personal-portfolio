@@ -23,7 +23,6 @@
             <h1>Pranay Narang</h1>
             <h2>Aspiring Data Analyst / Scientist</h2>
             <p>A Data Scientist aiming to break into Formula 1...</p>
-            <a href="projects.html" class="cta-button">View My Projects</a>
         </div>
         <img src="images/photo_Business card.jpg" alt="Photo of Pranay Narang" class="profile-photo">
     </section>

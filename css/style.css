@@ -1,10 +1,55 @@
 .nav-link{
     font-size: 20px;
-    padding-right: 10px;
+    display: inline-block;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    width: 75px;
+    height: 30px;
+    padding: 10px 15px;
+    text-align: center;
+    line-height: 30px;
+    justify-content: center;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.nav-link:hover{
+    background-color: #656262 ;
+    color: #ffffff;
 }
 
 nav ul{
     display: flex;
     list-style: none; 
     justify-content: center;
+}
+
+.profile-photo{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.intro-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.cta-button{
+    display: inline-block;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover{
+    background-color: #656262 ;
+    color: #ffffff;
 }
