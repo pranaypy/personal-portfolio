@@ -1,5 +1,7 @@
 body {
-    background-color: #082645;
+    background: linear-gradient(to right, #0b1d3a, #1a365d, #0f2027);
+    min-height: 100vh;
+    margin: 0;
     color: white;
     font-family: 'Inter', -apple-system, sans-serif;
 }
@@ -33,12 +35,12 @@ nav ul{
 }
 
 .main-text{
-    margin-right: 35px;
+    margin-right: 150px;
 }
 
 .profile-photo{
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     object-fit: cover;
     border-radius: 100%;
 }
@@ -46,7 +48,8 @@ nav ul{
 .intro-content{
     display: flex;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 150px;
+    font-size: 30px;
 }
 
 .cta-button{
@@ -62,7 +65,5 @@ nav ul{
 .cta-button:hover{
     background-color: #656262 ;
     color: #ffffff;
-    /* background-color: #ffffff ;
-    color: #1a1a1a;
-  */
+
 }
