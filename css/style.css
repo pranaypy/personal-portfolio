@@ -78,3 +78,11 @@ nav ul{
     margin: 40px auto;
     font-size: 23px;
 }
+
+.skills-grid {
+    display: flex;
+    max-width: 800px;
+    margin: 40px auto;
+    font-size: 23px;
+    gap: 40px;
+}
