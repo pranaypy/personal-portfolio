@@ -11,16 +11,16 @@ body {
     display: inline-block;
     background-color: #1a1a1a;
     color: #ffffff;
-    width: 75px;
+    width: 150px;
     height: 30px;
     padding: 10px 15px;
     text-align: center;
     line-height: 30px;
     justify-content: center;
-    border-radius: 6px;
+    border-radius: 10px;
     text-decoration: none;
     transition: background-color 0.3s ease;
-    margin-right: 10px;
+    margin-right: 18px;
 }
 
 .nav-link.active {
@@ -78,6 +78,13 @@ nav ul{
     font-size: 23px;
 }
 
+.skill-subheading{
+    margin-top: 10px;
+    max-width: 800px;
+    margin: 40px auto;
+    font-size: 35px;
+}
+
 .skills-grid {
     display: flex;
     max-width: 800px;
@@ -88,7 +95,7 @@ nav ul{
 
 .skills-category{
     background-color: #152238;
-    padding: 24px;
+    padding: 18px;
     border-radius: 12px;
     border: 2px solid gold;
     box-shadow: 30px 30px 12px rgba(0, 0, 0, 0.4);
