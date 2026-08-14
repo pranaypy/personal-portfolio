@@ -23,6 +23,10 @@ body {
     margin-right: 10px;
 }
 
+.nav-link.active {
+    border: 2px solid gold;
+}
+
 .nav-link:hover{
     background-color: #656262 ;
     color: #ffffff;
@@ -66,4 +70,11 @@ nav ul{
     background-color: #656262 ;
     color: #ffffff;
 
+}
+
+
+.about-content{
+    max-width: 800px;
+    margin: 40px auto;
+    font-size: 23px;
 }
