@@ -22,9 +22,9 @@
         </nav>
     </header>
 
-    <section class="projects-list">
-        <h2>Projects</h2>
+    <section>
         <div class="projects-grid">
+            <h2>Projects</h2>
             <div class="project-card">
                 <h3>F1 DataLab</h3>
                 <p>
@@ -36,7 +36,7 @@
                     summarized into an intuitive interface.
                 </p>
 
-                <div class="projects-tech">
+                <div class="project-tech">
                     <div class="tech-category">
                         <h4>Languages</h4>
                         <ul>
@@ -47,6 +47,7 @@
                     <div class="tech-category">
                         <h4>Libraries</h4>
                         <ul>
+                            <li>Python</li>
                             <li>StreamLit</li>
                             <li>Pandas</li>
                             <li>Plotly</li>
@@ -64,9 +65,9 @@
                     </div>
                 </div>
 
-                <div class="projects-links">
-                    <a href="https://f1-datalab.streamlit.app" class="links-btn" target="_blank">Live Demo</a>
-                    <a href="https://github.com/pranaypy/f1-datalab" class="links-btn" target="_blank">GitHub Repository</a>
+                <div class="project-links">
+                    <a href="https://f1-datalab.streamlit.app" class="btn" target="_blank">Live Demo</a>
+                    <a href="https://github.com/pranaypy/f1-datalab" class="btn" target="_blank">GitHub Repository</a>
                 </div>
             </div>
         </div>

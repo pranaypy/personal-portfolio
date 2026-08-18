@@ -1,7 +1,13 @@
+html {
+    background: linear-gradient(to right, #0b1d3a, #1a365d, #0f2027);
+}
+
 body {
     background: linear-gradient(to right, #0b1d3a, #1a365d, #0f2027);
     min-height: 100vh;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     color: white;
     font-family: 'Inter', -apple-system, sans-serif;
 }
@@ -131,4 +137,52 @@ nav ul{
     border-radius: 12px;
     border: 2px solid gold;
     box-shadow: 30px 30px 12px rgba(0, 0, 0, 0.4);
+}
+
+.projects-list{
+    max-width: 800px;
+    margin: 40px auto;
+    gap: 80px;
+    font-size: 23px;
+}
+.projects-grid{
+    display: flex;
+    gap: 40px;   /* whatever gap you want between cards */
+    font-size: 22px;
+}
+
+.projects-tech{
+    display: flex;
+    gap: 40px;
+}
+
+.tech-category{
+    background-color: #152238;
+    width: 200px;
+    padding: 18px;
+    border-radius: 12px;
+    border: 2px solid gold;
+    box-shadow: 30px 30px 12px rgba(0, 0, 0, 0.4);
+}
+
+.projects-links{
+    display: flex;
+    margin-top: 30px;
+    gap: 40px;
+}
+
+.links-btn{
+    display: inline-block;
+    background-color: #152238;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 2px solid gold;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.links-btn:hover{
+    background-color: gold ;
+    color: #1a1a1a;
 }
