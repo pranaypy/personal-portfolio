@@ -186,3 +186,22 @@ nav ul{
     background-color: gold ;
     color: #1a1a1a;
 }
+
+.certificates-list{
+    max-width: 1000px;
+    margin: 40px auto;
+    gap: 80px;
+    font-size: 25px;
+}
+
+.certificates-grid{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.certificates-img{
+    width: 600px;
+    height: 400px;
+    object-fit: contain;
+}
